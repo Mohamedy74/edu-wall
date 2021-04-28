@@ -1,0 +1,173 @@
+/* curriculum */
+[dir=ltr] .course-curriculum-accordion-sidebar accordion accordion-group{
+    border-bottom: none;
+}
+[dir=ltr] .course-curriculum-accordion-sidebar accordion accordion-group .panel{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color:transparent;
+    background-clip: border-box;
+    border: none;
+    border-radius: 0.25rem;
+}
+[dir=ltr] .course-curriculum-accordion-sidebar accordion accordion-group .panel .card-header{
+    padding: 0;
+    background-color: transparent;
+    border-bottom: none;
+}
+[dir=ltr] .course-curriculum-accordion-sidebar accordion accordion-group .panel .card-header:first-child{
+    border-radius: 0;
+}
+[dir=ltr] .course-curriculum-accordion-sidebar accordion accordion-group .panel .sidebar-menu-header{
+    position: relative;
+    padding: 16px;
+    background: #f7f8fa;
+    border: 1px solid #e8e9eb;
+    cursor: pointer;
+    height: auto;
+    margin-top: 3px;
+    color: #505763;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+[dir=ltr] .course-curriculum-accordion-sidebar accordion accordion-group .panel .panel-body .sidebar-menu-body
+.has-children .sidebar-menu-header{
+    padding: 12px 16px 12px 16px;
+    position: relative;
+    border-bottom: 1px solid #f5f5f5;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    margin-top: 0;
+    background: #fff;
+}
+[dir=ltr] .course-curriculum-accordion-sidebar accordion accordion-group .panel .panel-body .sidebar-menu-body
+.has-children .sidebar-menu-header .sidebar-menu-header-title {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #adafca;
+}
+[dir=ltr] .course-curriculum-accordion-sidebar accordion accordion-group .panel .panel-body .sidebar-menu-body
+.has-children .sidebar-menu-body .sidebar-menu-link {
+    padding: 12px 19px 12px 20px;
+    border-left: none;
+    border-right: none;
+    background-color: #fff;
+}
+[dir=ltr] .course-curriculum-accordion-sidebar accordion accordion-group .panel .panel-body .sidebar-menu-body
+.has-children .sidebar-menu-body .sidebar-menu-link .lecture-info .lecture-title {
+    font-weight: 600;
+    line-height: 1.4;
+    font-size: 14px;
+    color: #3c3b37;
+}
+[dir=ltr] .course-curriculum-accordion-sidebar accordion accordion-group .panel .panel-body .sidebar-menu-body
+.has-children .sidebar-menu-body .sidebar-menu-link .sidebar-menu-header-icon {
+    width: 1.4rem;
+    height: 1.4rem;
+}
+[dir=ltr] .course-curriculum-accordion-sidebar accordion accordion-group .panel .sidebar-menu-header .statistics-lectures{
+    color: #14171c;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-top: 4px;
+}
+[dir=ltr] .course-curriculum-accordion-sidebar accordion .sidebar-menu-item:first-child .sidebar-menu-header{
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+[dir=ltr] .course-curriculum-accordion-sidebar accordion .sidebar-menu-item.panel-open 
+.sidebar-menu-header .sidebar-menu-header-control-icon .sidebar-menu-header-control-icon-open {
+    display: block;
+}
+[dir=ltr] .course-curriculum-accordion-sidebar accordion .sidebar-menu-item.panel-open 
+.sidebar-menu-header .sidebar-menu-header-control-icon .sidebar-menu-header-control-icon-closed {
+    display: none;
+}
+[dir=ltr] .course-curriculum-accordion-sidebar accordion .panel-body .sidebar-menu-body .has-children .sidebar-menu-item.panel-open .sidebar-menu-header 
+.sidebar-menu-header-control-icon .sidebar-menu-header-control-icon-open {
+    display: block;
+}
+[dir=ltr] .course-curriculum-accordion-sidebar accordion .panel-body .sidebar-menu-body .has-children .sidebar-menu-item.panel-open .sidebar-menu-header 
+.sidebar-menu-header-control-icon .sidebar-menu-header-control-icon-closed {
+    display: none;
+}
+[dir=ltr] .course-curriculum-accordion-sidebar accordion .panel-body .sidebar-menu-body .has-children .sidebar-menu-item .sidebar-menu-header 
+.sidebar-menu-header-control-icon .sidebar-menu-header-control-icon-open {
+    display: none;
+}
+[dir=ltr] .course-curriculum-accordion-sidebar accordion .panel-body .sidebar-menu-body .has-children .sidebar-menu-item .sidebar-menu-header 
+.sidebar-menu-header-control-icon .sidebar-menu-header-control-icon-closed {
+    display: block;
+}
+[dir=ltr] .course-curriculum-accordion-sidebar .sidebar-menu-header .sidebar-menu-header-control-icon .sidebar-menu-header-control-icon-open,
+[dir=ltr] .course-curriculum-accordion-sidebar .sidebar-menu-header .sidebar-menu-header-control-icon .sidebar-menu-header-control-icon-closed {
+    fill:#23d2e2;
+    position: relative;
+    top: unset;
+    right: unset;
+    width: 15px;
+    height: 24px;
+}
+[dir=ltr] .course-curriculum-accordion-sidebar accordion accordion-group .panel .panel-body{
+    padding: 0;
+}
+[dir=ltr] .course-curriculum-accordion-sidebar accordion accordion-group .panel .panel-body .sidebar-menu-body{
+    padding: 0;
+    border-top: none;
+}
+
+[dir=ltr] .course-curriculum-accordion-sidebar accordion accordion-group 
+.panel .panel-body .sidebar-menu-body .sidebar-menu-link{
+    padding: .7rem 2.4rem;
+    position: relative;
+    border-bottom: 1px solid #e8e9eb;
+    border-left: 1px solid #e8e9eb;
+    border-right: 1px solid #e8e9eb;
+    height: auto;
+    display: flex;
+    align-items: center;
+    color: #686f7a;
+}
+[dir=ltr] .course-curriculum-accordion-sidebar accordion accordion-group 
+.panel .panel-body .sidebar-menu-body .sidebar-menu-link .sidebar-menu-header-icon{
+    width: 1.6rem;
+    height: 1.6rem;
+    fill: #73726c;
+    display: inline-block;
+    flex-shrink: 0;
+    margin-right: .4rem;
+}
+[dir=ltr] .course-curriculum-accordion-sidebar accordion accordion-group 
+.panel .panel-body .sidebar-menu-body .sidebar-menu-link .lecture-info{
+    display: flex;
+    flex: 1;
+    min-width: 1px;
+    justify-content: space-between;
+    align-items: center;
+}
+[dir=ltr] .course-curriculum-accordion-sidebar accordion accordion-group 
+.panel .panel-body .sidebar-menu-body .sidebar-menu-link .lecture-info .lecture-title{
+    font-weight: 600;
+    line-height: 1.4;
+    font-size: 15px;
+    color: #3c3b37;
+}
+[dir=ltr] .course-curriculum-accordion-sidebar accordion accordion-group 
+.panel .panel-body .sidebar-menu-body .sidebar-menu-link .lecture-info .lecture-time{
+    font-weight: 600;
+    font-size: 15px;
+}
+@media (max-width: 1199px) and (min-width: 992px){
+    .app--content-column{
+        width: calc(100vw - 300px);
+    }
+    .app--sidebar-column{
+        width: 300px;
+    }
+}

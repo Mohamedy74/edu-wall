@@ -1,0 +1,114 @@
+[dir=rtl] body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: right;
+  background-color: #fff;
+}
+
+/*------------
+    scrollbar
+------------*/
+@import '~perfect-scrollbar/css/perfect-scrollbar.css';
+/*------------
+    RESET
+------------*/
+@import 'reset';
+@import 'bootstrap/bootstrap-override';
+@import 'bootstrap-rtl';
+@import 'bootstrap';
+/*-------------
+    GENERAL
+-------------*/
+@import 'font';
+@import 'color';
+@import 'color-theme';
+@import 'color-theme-custom';
+@import 'form';
+@import 'form_rtl';
+@import 'icon';
+@import 'grid';
+@import 'grid_rtl';
+@import 'general';
+@import 'button';
+@import 'utils';
+@import 'utils_rtl';
+@import 'table';
+@import 'table_rtl';
+@import 'widget';
+@import 'loader';
+@import '404';
+
+/*---------------
+    COMPONENT
+---------------*/
+@import 'picture/main';
+@import 'progress-stat/main';
+@import 'progress-arc/main';
+@import 'user-avatar/main';
+@import 'user-status/main';
+@import 'cart-item-preview/main';
+@import 'form-box/main';
+@import 'landing/main';
+@import 'dropdown-box/main';
+@import 'dropdown-navigation/main';
+@import 'navigation-widget/main';
+@import 'chat-widget/main';
+@import 'profile-header/main';
+@import 'post-preview/main';
+@import 'post-comment/main';
+@import 'post-open/main';
+@import 'product-preview/main';
+@import 'stream-box/main';
+@import 'video-box/main';
+@import 'video-status/main';
+@import 'content-actions/main';
+@import 'user-preview/main';
+@import 'album-preview/main';
+@import 'popup-box/main';
+@import 'badge-item/main';
+@import 'streamer-box/main';
+@import 'calendar/main';
+@import 'event-preview/main';
+@import 'quest/main';
+@import 'forum-post/main';
+@import 'slider-panel/main';
+@import 'chart/main';
+@import 'demo-box/main';
+@import 'create-curriculum';
+@import 'create-curriculum-rtl';
+@import 'lesson';
+@import 'lesson_rtl';
+@import 'exam';
+@import 'worksheet';
+@import 'worksheet-rtl';
+@import 'sidebar-curriculm';
+@import 'sidebar-curriculm_rtl';
+/* Owl Carousel */
+@import '~ngx-owl-carousel-o/lib/styles/scss/owl.theme.default';
+@import '~ngx-owl-carousel-o/lib/styles/scss/owl.carousel';
+
+/*-------------
+    LAYOUT
+-------------*/
+@import 'header';
+@import 'header_rtl';
+@import 'navigation';
+@import 'navigation_rtl';
+@import 'sidebar';
+@import 'section';
+@import 'section_rtl';
+
+/*-------------
+    Quill
+-------------*/
+@import '~quill/dist/quill.bubble.css';
+@import '~quill/dist/quill.snow.css';
+
+/*-------------
+    Tiny slider
+-------------*/
+@import '../tiny-slider/dist/tiny-slider';
